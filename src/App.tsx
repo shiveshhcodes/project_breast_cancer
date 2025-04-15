@@ -289,7 +289,7 @@ function FrontPage({ onStartClick }: { onStartClick: () => void }) {
             Welcome to Breast Cancer Prediction
           </h2>
           <p className="mt-2 text-lg text-gray-600">
-            A simple tool by Shivesh and Isha
+            A simple tool by Shivesh Richhariya
           </p>
         </div>
         <div className="bg-white shadow-md rounded-lg p-8">
