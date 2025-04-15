@@ -1,0 +1,47 @@
+.heart-animation {
+    display: inline-block;
+  }
+  
+  .heart-animation.pumping {
+    animation: pump 1.3s infinite alternate;
+  }
+  
+  @keyframes pump {
+    from {
+      transform: scale(1.1);
+    }
+    to {
+      transform: scale(1.2);
+    }
+  }
+  
+  .loading-bar {
+    animation: load 6s linear forwards;
+  }
+  
+  @keyframes load {
+    0% { width: 0%; }
+    100% { width: 100%; }
+  }
+  
+  .fade-in {
+    animation: fadeIn 0.7s ease-in-out;
+  }
+  
+  @keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+  
+  .slide-in-right {
+    animation: slideInRight 0.7s ease-out;
+  }
+  
+  @keyframes slideInRight {
+    from { transform: translateX(100%); opacity: 0; }
+    to { transform: translateX(0); opacity: 1; }
+  }
+  
+  .app-container {
+    position: relative; 
+  }
